@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Miha Žakelj">
+    <meta name="description" content="Dobrodošli na spletni strani Miha tenis kluba. Oglejte si ponudbo teniške šole, najem igrišč, novice, tekmovanja in kontaktne informacije.">
+    <meta name="keywords" content="tenis, teniška šola, najem igrišč, novice, tekmovanja, Miha tenis klub">
+    <title>Tenis</title>
+
+    <!-- ikona -->
+    <link rel="icon" href="slike/TenislogoBZ.png" type="image/x-icone">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/slog.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="slike/TenislogoBZ.png" alt="Tenis logotip">
+            </a>
+            <div class="collapse navbar-collapse justify-content-center" id="meni">
+              <ul class="navbar-nav">
+                <li class="active"><a class="nav-link" href="index.html">Domov</a></li>
+                <li class="dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Tenis</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="tsola.html">Teniška šola</a></li>
+                    <li><a class="dropdown-item" href="njigrisca.html">Najem igrišča</a></li>
+                    <li><a class="dropdown-item" href="onucenje.html">Online učenje</a></li>
+                  </ul>
+                </li>
+                <li><a class="nav-link" href="tekmovanje.html">Tekmovanja</a></li>
+                <li><a class="nav-link" href="novice.html">Novice</a></li>
+                <li><a class="nav-link" href="cenik.html">Cenik</a></li>
+                <li class="dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">O nas</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="okljubu.html">O klubu</a></li>
+                    <li><a class="dropdown-item" href="trener.html">Trenerji</a></li>
+                  </ul>
+                </li>
+                <li><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+              </ul>
+          </div>
+        </div>
+    </nav>
+  </header>
+  <section id="domov">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Prva slika"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Druga slika"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="slike/igra2.png" class="d-block w-100" alt="Bootstrap">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="slike/ucenje2.png" class="d-block w-100" alt="Učenje tenisa">
+            <div class="carousel-caption d-none d-md-block">
+              <a href="trener.html" class="btn btn-primary">Učenje tenisa z velikim izborom trenerjev.</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Prejšnja</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Naslednja</span>
+        </button>
+      </div>
+  </section>
+
+  <section class="uvodna-sekcija text-center my-5 py-4">
+    <h1 class="mb-3">Dobrodošli v Miha tenis klubu!</h1>
+    <p>
+      Smo klub z dolgoletno tradicijo, kjer združujemo ljubezen do tenisa, športni duh in prijetno druženje. Naša vrata so odprta vsem otrokom, mladini in odraslim, tako začetnikom kot izkušenim igralcem.
+    </p>
+    <a href="okljubu.html" class="btn btn-outline-info btn-lg mt-3">Več o klubu</a>
+  </section>
+
+  <section class="storitve-sekcija container my-5">
+    <div class="row g-4 justify-content-center">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 shadow text-center p-3">
+          <img src="slike/ucenje2.png" alt="Teniška šola" class="card-img-top mx-auto">
+          <div class="card-body">
+            <h2 class="card-title">Teniška šola</h2>
+            <p class="card-text">Za vse starosti in nivoje znanja. Učenje v majhnih skupinah pod vodstvom izkušenih trenerjev. Pridruži se in naredi prve ali napredne korake v svetu tenisa!</p>
+            <a href="tsola.html" class="btn btn-outline-primary btn-sm mt-2">Več o šoli</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 shadow text-center p-3">
+          <img src="slike/igrisca.png" alt="Najem igrišča" class="card-img-top mx-auto">
+          <div class="card-body">
+            <h2 class="card-title">Najem igrišča</h2>
+            <p class="card-text">Peščena in betonska igrišča za rekreativce in tekmovalce. Rezervacija je hitra in enostavna, cene pa dostopne vsem.</p>
+            <a href="njigrisca.html" class="btn btn-outline-primary btn-sm mt-2">Več o najemu</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 shadow text-center p-3">
+          <img src="slike/pokalzm.png" alt="Tekmovanja" class="card-img-top mx-auto">
+          <div class="card-body">
+            <h2 class="card-title">Tekmovanja</h2>
+            <p class="card-text">Organiziramo klubska in odprta tekmovanja za vse starosti. Pridruži se turnirjem in pokaži svoje znanje ter športni duh!</p>
+            <a href="tekmovanje.html" class="btn btn-outline-primary btn-sm mt-2">Več o tekmovanjih</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 shadow text-center p-3">
+          <img src="slike/onlucenjes.png" alt="Online učenje" class="card-img-top mx-auto">
+          <div class="card-body">
+            <h2 class="card-title">Online učenje</h2>
+            <p class="card-text">Video vodiči, nasveti in vaje za samostojno izboljšanje teniških veščin kjerkoli in kadarkoli. Primerno za vse, ki želijo napredovati tudi doma.</p>
+            <a href="onucenje.html" class="btn btn-outline-primary btn-sm mt-2">Več o online učenju</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="video-sekcija text-center my-5">
+    <h2 class="mb-4">Oglejte si, kako poteka učenje v naši teniški šoli!</h2>
+    <video controls width="480">
+      <source src="slike/video/igravid.mp4" type="video/mp4">
+      Vaš brskalnik ne podpira videa.
+    </video>
+    <div class="mt-3">
+      <a href="tsola.html" class="btn btn-primary btn-lg">Več o teniški šoli</a>
+    </div>
+  </section>
+
+  <section class="novice-sekcija text-center my-5">
+    <h2>Zadnje novice</h2>
+    <p>
+      Spremljaj aktualne novice, obvestila in uspehe naših članov. Bodite na tekočem z dogajanjem v klubu in na turnirjih.<br>
+      <a href="novice.html" class="btn btn-outline-success btn-sm mt-2">Preberi novice</a>
+    </p>
+  </section>
+
+  <section class="trenerji-sekcija text-center my-5">
+    <h2>Naši trenerji</h2>
+    <p>Ekipa licenciranih in izkušenih trenerjev skrbi za napredek vseh članov. Spoznaj njihove zgodbe in pristop k poučevanju.</p>
+    <a href="trener.html" class="btn btn-outline-success btn-sm mt-2">Več o trenerjih</a>
+  </section>
+
+  <section class="klub-sekcija text-center my-5">
+    <h2>O klubu</h2>
+    <p>Spoznajte zgodovino, vizijo in vrednote Miha tenis kluba ter zakaj smo pravi naslov za vse ljubitelje tenisa.</p>
+    <a href="okljubu.html" class="btn btn-outline-info btn-sm mt-2">Več o klubu</a>
+  </section>
+
+  <section class="cenik-sekcija text-center my-5">
+    <h2>Cenik</h2>
+    <p>Pregled vseh cen za najem igrišč, šolo tenisa in druge storitve. Preverite ugodne pakete in popuste za člane.</p>
+    <a href="cenik.html" class="btn btn-outline-warning btn-sm mt-2">Poglej cenik</a>
+  </section>
+
+  <section class="kontakt-sekcija text-center my-5">
+    <h2>Kontakt</h2>
+    <p>Imate vprašanje? Pišite nam ali nas pokličite z veseljem pomagamo! Najdete nas tudi na družbenih omrežjih.</p>
+    <a href="kontakt.html" class="btn btn-primary btn-sm mt-2">Kontaktirajte nas</a>
+  </section>
+
+  <div class="partnerji mb-5 text-center">
+      <h2>Naši partnerji</h2>
+      <img src="slike/sponzorji/Gym.png" alt="Naš partner - Gym">
+  </div>
+  <footer class="text-center py-4">
+      <p>Miha tenis klub</p>
+      <img src="slike/TenislogoBZ.png" alt="Tenis logotip">
+  </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
